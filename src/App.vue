@@ -1,19 +1,22 @@
 <template>
   <div class="content">
     <TopTitle/>
-    <HelloWorld />
+    <MoodHeader />
+    <MoodBarContent/>
   </div>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component'
-import HelloWorld from './components/MoodHeader.vue'
+import MoodHeader from './components/MoodHeader.vue'
 import TopTitle from './components/TopTitle.vue'
+import MoodBarContent from './components/MoodBarContent.vue'
 
 @Options({
   components: {
-    HelloWorld,
-    TopTitle
+    MoodHeader,
+    TopTitle,
+    MoodBarContent
   }
 })
 export default class App extends Vue {}

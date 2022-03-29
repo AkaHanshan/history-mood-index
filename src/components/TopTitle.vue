@@ -15,9 +15,9 @@ export default {
   display: flex;
   align-items: center;
   text-align: center;
-  font-size: 0.5rem;
+  font-size: 0.2rem;
   /* Function 33 */
-  margin-bottom: .5rem;
+  margin-bottom: .22rem;
   font-weight: 500;
   color: #2D2F33;
 }

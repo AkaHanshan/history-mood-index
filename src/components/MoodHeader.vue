@@ -1,7 +1,7 @@
 <template>
  <div class="header">
    <div class="user-info">
-     <div class="user-info__avatar"><img :src="user.avatar"/></div>
+     <img class="user-info__avatar" :src="user.avatar" alt=""/>
      <div class="user-info__name">{{user.name || '高雄'}}</div>
    </div>
    <div class="user-index">
@@ -43,27 +43,27 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="less" scoped>
 .header{
-  height: 5.95rem;
-  width: 9.5rem;
+  height: 2.38rem;
+  width: 3.9rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0px -0.15rem 0.4rem rgba(0, 0, 0, 0.15);
-  border-radius: 0.6rem;
+  box-shadow: 0px -0.06rem 0.16rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.24rem;
   .user-info{
-    width: 2.2rem;
-    height: 0.9rem;
+    width: .88rem;
+    height: 0.36rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: .46rem;
     &__avatar{
-      height: 0.9rem;
-      width: 0.9rem;
+      height: 0.36rem;
+      width: 0.36rem;
       border-radius: 50%;
     }
     &__name{
-      font-size: 0.5rem;
+      font-size: 0.2rem;
       color: #2D2F33;
 
     }
@@ -73,14 +73,14 @@ export default {
     align-items: center;
     flex-direction: column;
     &__score{
-      font-size: 1.8rem;
+      font-size: .72rem;
       font-weight: 800;
       color: #2D2F33;
     }
     &__tips{
-      font-size: 0.45rem;
+      font-size: 0.18rem;
       color: #929292;
-      letter-spacing: 0.0075rem;
+      letter-spacing: -0.003rem;
     }
   }
 }
