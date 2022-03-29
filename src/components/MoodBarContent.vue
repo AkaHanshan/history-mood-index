@@ -1,7 +1,7 @@
 <template>
 <div class="content">
   <template v-for="(item,index) in list" :key="item.week + index">
-    <mood-bar :bar="item" :today="index === today"/>
+    <mood-bar :bar="item" :today="index === today" :index="Number(index)" />
   </template>
 </div>
 </template>

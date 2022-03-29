@@ -31,7 +31,7 @@ export default {
     },
     averageIndex: {
       type: Number,
-      default: 0
+      default: 88
     }
   },
   setup (props: any) {
