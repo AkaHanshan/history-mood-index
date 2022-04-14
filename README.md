@@ -1,4 +1,5 @@
 # history-mood-index
+## The demo of history mood index created by Vue.js 3.x
 
 ## Project setup
 ```
